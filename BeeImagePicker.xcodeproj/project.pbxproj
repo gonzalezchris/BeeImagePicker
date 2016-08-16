@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C294828B1D62BC3900F34D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294828A1D62BC3900F34D93 /* AppDelegate.swift */; };
+		C294828D1D62BC3900F34D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294828C1D62BC3900F34D93 /* ViewController.swift */; };
+		C29482901D62BC3900F34D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C294828E1D62BC3900F34D93 /* Main.storyboard */; };
+		C29482931D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C29482911D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld */; };
+		C29482951D62BC3900F34D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29482941D62BC3900F34D93 /* Assets.xcassets */; };
+		C29482981D62BC3900F34D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */; };
+		C29482A31D62BC3900F34D93 /* BeeImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29482A21D62BC3900F34D93 /* BeeImagePickerTests.swift */; };
+		C29482AE1D62BC3900F34D93 /* BeeImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29482AD1D62BC3900F34D93 /* BeeImagePickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C294829F1D62BC3900F34D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C294827F1D62BC3900F34D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29482861D62BC3900F34D93;
+			remoteInfo = BeeImagePicker;
+		};
+		C29482AA1D62BC3900F34D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C294827F1D62BC3900F34D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29482861D62BC3900F34D93;
+			remoteInfo = BeeImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C29482871D62BC3900F34D93 /* BeeImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C294828A1D62BC3900F34D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C294828C1D62BC3900F34D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C294828F1D62BC3900F34D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C29482921D62BC3900F34D93 /* BeeImagePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeeImagePicker.xcdatamodel; sourceTree = "<group>"; };
+		C29482941D62BC3900F34D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C29482971D62BC3900F34D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C29482991D62BC3900F34D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C294829E1D62BC3900F34D93 /* BeeImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29482A21D62BC3900F34D93 /* BeeImagePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeImagePickerTests.swift; sourceTree = "<group>"; };
+		C29482A41D62BC3900F34D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29482A91D62BC3900F34D93 /* BeeImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29482AD1D62BC3900F34D93 /* BeeImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeImagePickerUITests.swift; sourceTree = "<group>"; };
+		C29482AF1D62BC3900F34D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29482841D62BC3900F34D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C294829B1D62BC3900F34D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29482A61D62BC3900F34D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C294827E1D62BC3900F34D93 = {
+			isa = PBXGroup;
+			children = (
+				C29482891D62BC3900F34D93 /* BeeImagePicker */,
+				C29482A11D62BC3900F34D93 /* BeeImagePickerTests */,
+				C29482AC1D62BC3900F34D93 /* BeeImagePickerUITests */,
+				C29482881D62BC3900F34D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C29482881D62BC3900F34D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29482871D62BC3900F34D93 /* BeeImagePicker.app */,
+				C294829E1D62BC3900F34D93 /* BeeImagePickerTests.xctest */,
+				C29482A91D62BC3900F34D93 /* BeeImagePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29482891D62BC3900F34D93 /* BeeImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C294828A1D62BC3900F34D93 /* AppDelegate.swift */,
+				C294828C1D62BC3900F34D93 /* ViewController.swift */,
+				C294828E1D62BC3900F34D93 /* Main.storyboard */,
+				C29482941D62BC3900F34D93 /* Assets.xcassets */,
+				C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */,
+				C29482991D62BC3900F34D93 /* Info.plist */,
+				C29482911D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld */,
+			);
+			path = BeeImagePicker;
+			sourceTree = "<group>";
+		};
+		C29482A11D62BC3900F34D93 /* BeeImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C29482A21D62BC3900F34D93 /* BeeImagePickerTests.swift */,
+				C29482A41D62BC3900F34D93 /* Info.plist */,
+			);
+			path = BeeImagePickerTests;
+			sourceTree = "<group>";
+		};
+		C29482AC1D62BC3900F34D93 /* BeeImagePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C29482AD1D62BC3900F34D93 /* BeeImagePickerUITests.swift */,
+				C29482AF1D62BC3900F34D93 /* Info.plist */,
+			);
+			path = BeeImagePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29482861D62BC3900F34D93 /* BeeImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29482B21D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePicker" */;
+			buildPhases = (
+				C29482831D62BC3900F34D93 /* Sources */,
+				C29482841D62BC3900F34D93 /* Frameworks */,
+				C29482851D62BC3900F34D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeImagePicker;
+			productName = BeeImagePicker;
+			productReference = C29482871D62BC3900F34D93 /* BeeImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C294829D1D62BC3900F34D93 /* BeeImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29482B51D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePickerTests" */;
+			buildPhases = (
+				C294829A1D62BC3900F34D93 /* Sources */,
+				C294829B1D62BC3900F34D93 /* Frameworks */,
+				C294829C1D62BC3900F34D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29482A01D62BC3900F34D93 /* PBXTargetDependency */,
+			);
+			name = BeeImagePickerTests;
+			productName = BeeImagePickerTests;
+			productReference = C294829E1D62BC3900F34D93 /* BeeImagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C29482A81D62BC3900F34D93 /* BeeImagePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29482B81D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePickerUITests" */;
+			buildPhases = (
+				C29482A51D62BC3900F34D93 /* Sources */,
+				C29482A61D62BC3900F34D93 /* Frameworks */,
+				C29482A71D62BC3900F34D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29482AB1D62BC3900F34D93 /* PBXTargetDependency */,
+			);
+			name = BeeImagePickerUITests;
+			productName = BeeImagePickerUITests;
+			productReference = C29482A91D62BC3900F34D93 /* BeeImagePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C294827F1D62BC3900F34D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chris Gonzalez";
+				TargetAttributes = {
+					C29482861D62BC3900F34D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C294829D1D62BC3900F34D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C29482861D62BC3900F34D93;
+					};
+					C29482A81D62BC3900F34D93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C29482861D62BC3900F34D93;
+					};
+				};
+			};
+			buildConfigurationList = C29482821D62BC3900F34D93 /* Build configuration list for PBXProject "BeeImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C294827E1D62BC3900F34D93;
+			productRefGroup = C29482881D62BC3900F34D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29482861D62BC3900F34D93 /* BeeImagePicker */,
+				C294829D1D62BC3900F34D93 /* BeeImagePickerTests */,
+				C29482A81D62BC3900F34D93 /* BeeImagePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29482851D62BC3900F34D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29482981D62BC3900F34D93 /* LaunchScreen.storyboard in Resources */,
+				C29482951D62BC3900F34D93 /* Assets.xcassets in Resources */,
+				C29482901D62BC3900F34D93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C294829C1D62BC3900F34D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29482A71D62BC3900F34D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29482831D62BC3900F34D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C294828D1D62BC3900F34D93 /* ViewController.swift in Sources */,
+				C294828B1D62BC3900F34D93 /* AppDelegate.swift in Sources */,
+				C29482931D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C294829A1D62BC3900F34D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29482A31D62BC3900F34D93 /* BeeImagePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29482A51D62BC3900F34D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29482AE1D62BC3900F34D93 /* BeeImagePickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C29482A01D62BC3900F34D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29482861D62BC3900F34D93 /* BeeImagePicker */;
+			targetProxy = C294829F1D62BC3900F34D93 /* PBXContainerItemProxy */;
+		};
+		C29482AB1D62BC3900F34D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29482861D62BC3900F34D93 /* BeeImagePicker */;
+			targetProxy = C29482AA1D62BC3900F34D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C294828E1D62BC3900F34D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C294828F1D62BC3900F34D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29482971D62BC3900F34D93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C29482B01D62BC3900F34D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C29482B11D62BC3900F34D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29482B31D62BC3900F34D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C29482B41D62BC3900F34D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C29482B61D62BC3900F34D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeeImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeImagePicker.app/BeeImagePicker";
+			};
+			name = Debug;
+		};
+		C29482B71D62BC3900F34D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeeImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeImagePicker.app/BeeImagePicker";
+			};
+			name = Release;
+		};
+		C29482B91D62BC3900F34D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeImagePicker;
+			};
+			name = Debug;
+		};
+		C29482BA1D62BC3900F34D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parkingbee.BeeImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeImagePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29482821D62BC3900F34D93 /* Build configuration list for PBXProject "BeeImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29482B01D62BC3900F34D93 /* Debug */,
+				C29482B11D62BC3900F34D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29482B21D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29482B31D62BC3900F34D93 /* Debug */,
+				C29482B41D62BC3900F34D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C29482B51D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29482B61D62BC3900F34D93 /* Debug */,
+				C29482B71D62BC3900F34D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C29482B81D62BC3900F34D93 /* Build configuration list for PBXNativeTarget "BeeImagePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29482B91D62BC3900F34D93 /* Debug */,
+				C29482BA1D62BC3900F34D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C29482911D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C29482921D62BC3900F34D93 /* BeeImagePicker.xcdatamodel */,
+			);
+			currentVersion = C29482921D62BC3900F34D93 /* BeeImagePicker.xcdatamodel */;
+			path = BeeImagePicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C294827F1D62BC3900F34D93 /* Project object */;
+}
