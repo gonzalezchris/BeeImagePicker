@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C294828B1D62BC3900F34D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294828A1D62BC3900F34D93 /* AppDelegate.swift */; };
-		C294828D1D62BC3900F34D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294828C1D62BC3900F34D93 /* ViewController.swift */; };
-		C29482901D62BC3900F34D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C294828E1D62BC3900F34D93 /* Main.storyboard */; };
+		C294828D1D62BC3900F34D93 /* BeeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294828C1D62BC3900F34D93 /* BeeImagePicker.swift */; };
 		C29482931D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C29482911D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld */; };
 		C29482951D62BC3900F34D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29482941D62BC3900F34D93 /* Assets.xcassets */; };
 		C29482981D62BC3900F34D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */; };
@@ -37,8 +36,7 @@
 /* Begin PBXFileReference section */
 		C29482871D62BC3900F34D93 /* BeeImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C294828A1D62BC3900F34D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C294828C1D62BC3900F34D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C294828F1D62BC3900F34D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C294828C1D62BC3900F34D93 /* BeeImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeImagePicker.swift; sourceTree = "<group>"; };
 		C29482921D62BC3900F34D93 /* BeeImagePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeeImagePicker.xcdatamodel; sourceTree = "<group>"; };
 		C29482941D62BC3900F34D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29482971D62BC3900F34D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C294828A1D62BC3900F34D93 /* AppDelegate.swift */,
-				C294828C1D62BC3900F34D93 /* ViewController.swift */,
-				C294828E1D62BC3900F34D93 /* Main.storyboard */,
+				C294828C1D62BC3900F34D93 /* BeeImagePicker.swift */,
 				C29482941D62BC3900F34D93 /* Assets.xcassets */,
 				C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */,
 				C29482991D62BC3900F34D93 /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				C29482981D62BC3900F34D93 /* LaunchScreen.storyboard in Resources */,
 				C29482951D62BC3900F34D93 /* Assets.xcassets in Resources */,
-				C29482901D62BC3900F34D93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C294828D1D62BC3900F34D93 /* ViewController.swift in Sources */,
+				C294828D1D62BC3900F34D93 /* BeeImagePicker.swift in Sources */,
 				C294828B1D62BC3900F34D93 /* AppDelegate.swift in Sources */,
 				C29482931D62BC3900F34D93 /* BeeImagePicker.xcdatamodeld in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C294828E1D62BC3900F34D93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C294828F1D62BC3900F34D93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C29482961D62BC3900F34D93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
